@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Free Wash - Soaring Car Wash</title>
+    <meta name="description" content="Sign up for your free car wash at Soaring Car Wash. Limited time offer for new customers.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/soaring-logo.svg" alt="Soaring Car Wash" class="logo-img">
+                    </a>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link">MANAGE MY PLAN</a></li>
+                        <li><a href="locations.html" class="nav-link">LOCATIONS</a></li>
+                        <li><a href="#" class="nav-link">GO UNLIMITED</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Free Wash Form Section -->
+    <section class="free-wash-section">
+        <div class="container">
+            <div class="free-wash-content">
+                <div class="free-wash-info">
+                    <h1 class="free-wash-title">Get Your FREE Wash!</h1>
+                    <p class="free-wash-subtitle">New customers can enjoy a complimentary car wash at any of our locations. Sign up today!</p>
+                    
+                    <div class="free-wash-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🚗</div>
+                            <div class="benefit-text">
+                                <h3>Premium Service</h3>
+                                <p>Experience our quality car wash with premium products</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">📍</div>
+                            <div class="benefit-text">
+                                <h3>Two Locations</h3>
+                                <p>Choose from Elmwood Park or Pompton Lakes</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">⚡</div>
+                            <div class="benefit-text">
+                                <h3>Express Service</h3>
+                                <p>Quick and efficient service with free vacuums</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="free-wash-form-container">
+                    <div class="form-header">
+                        <h2>Claim Your Free Wash</h2>
+                        <p>Fill out the form below to get started</p>
+                    </div>
+                    
+                    <form class="free-wash-form" id="freeWashForm">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="location">Preferred Location *</label>
+                            <select id="location" name="location" required>
+                                <option value="">Select a location</option>
+                                <option value="elmwood-park">Elmwood Park - 235 US Highway 46 W</option>
+                                <option value="pompton-lakes">Pompton Lakes - 105 Hamburg Turnpike</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="subscribe" name="subscribe">
+                                <span class="checkbox-custom"></span>
+                                I would like to receive promotional emails and offers
+                            </label>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="terms" name="terms" required>
+                                <span class="checkbox-custom"></span>
+                                I agree to the <a href="#">Terms and Conditions</a> *
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Get My Free Wash</span>
+                            <span class="btn-loader" style="display: none;">Processing...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/soaring-logo-white.svg" alt="Soaring Car Wash" class="footer-logo-img">
+                    </div>
+                    <p class="footer-description">Premium car wash experience in New Jersey.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Locations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Elmwood Park</a></li>
+                        <li><a href="#">Pompton Lakes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Express Wash</a></li>
+                        <li><a href="#">Full Service</a></li>
+                        <li><a href="#">Unlimited Plans</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:(201)797-7627">(201) 797-7627</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2025 Soaring Car Wash. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/free-wash.js"></script>
+
+    <style>
+        .free-wash-section {
+            padding: 60px 0;
+            background: #f8f9fa;
+            min-height: 80vh;
+        }
+        
+        .free-wash-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        
+        .free-wash-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .free-wash-subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .free-wash-benefits {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        
+        .benefit-icon {
+            font-size: 2.5rem;
+            flex-shrink: 0;
+        }
+        
+        .benefit-text h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .benefit-text p {
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .free-wash-form-container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+        }
+        
+        .form-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .form-header h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .form-header p {
+            color: #666;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #E31C23;
+        }
+        
+        .form-group input.error,
+        .form-group select.error {
+            border-color: #e74c3c;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .checkbox-label input[type="checkbox"] {
+            display: none;
+        }
+        
+        .checkbox-custom {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #e1e8ed;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        .checkbox-label input[type="checkbox"]:checked + .checkbox-custom {
+            background: #E31C23;
+            border-color: #E31C23;
+        }
+        
+        .checkbox-label input[type="checkbox"]:checked + .checkbox-custom::after {
+            content: '✓';
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .checkbox-label a {
+            color: #E31C23;
+            text-decoration: none;
+        }
+        
+        .checkbox-label a:hover {
+            text-decoration: underline;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            background: #E31C23;
+            color: white;
+            border: none;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .submit-btn:hover {
+            background: #c41820;
+            transform: translateY(-2px);
+        }
+        
+        .submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .btn-loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        @media (max-width: 768px) {
+            .free-wash-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .free-wash-form-container {
+                padding: 30px 20px;
+            }
+            
+            .free-wash-title {
+                font-size: 2.2rem;
+            }
+        }
+        
+        /* Toast Notifications */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 16px 24px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            z-index: 10000;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+        }
+        
+        .toast.show {
+            transform: translateX(0);
+        }
+        
+        .toast-success {
+            background: #27ae60;
+        }
+        
+        .toast-error {
+            background: #e74c3c;
+        }
+    </style>
+</body>
+</html>

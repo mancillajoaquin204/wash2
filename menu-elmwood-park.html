@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Elmwood Park | Soaring Car Wash</title>
+    <meta name="description" content="Car wash services and pricing for our Elmwood Park location. Express wash, full service, and detailing options available.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <div class="container">
+            <span class="hiring-text">We're Hiring!</span>
+            <button class="apply-btn">Apply Online Now</button>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/soaring-logo.svg" alt="Soaring Car Wash" class="logo-img">
+                    </a>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link">MANAGE MY PLAN</a></li>
+                        <li><a href="locations.html" class="nav-link">LOCATIONS</a></li>
+                        <li><a href="#" class="nav-link">GO UNLIMITED</a></li>
+                    </ul>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="header-cta">
+                    <button class="free-wash-btn">GET YOUR FREE WASH <span class="arrow">→</span></button>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="menu-header">
+        <div class="container">
+            <div class="menu-header-content">
+                <h1 class="menu-title">Elmwood Park Menu</h1>
+                <p class="menu-subtitle">Premium car wash services and pricing</p>
+                <div class="location-info">
+                    <p>235 US Highway 46 West, Elmwood Park, NJ 07407</p>
+                    <p><a href="tel:(201)797-7627">(201) 797-7627</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Menu -->
+    <section class="services-menu">
+        <div class="container">
+            <!-- Express Wash Packages -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2 class="category-title">Express Wash Packages</h2>
+                    <p class="category-description">Quick exterior wash with free vacuums</p>
+                </div>
+                
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3 class="package-name">Basic Wash</h3>
+                            <div class="package-price">$12.99</div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Pre-wash rinse</li>
+                            <li>Soap application</li>
+                            <li>High-pressure wash</li>
+                            <li>Spot-free rinse</li>
+                            <li>Air dry</li>
+                            <li>Free vacuum access</li>
+                        </ul>
+                        <button class="select-package-btn">Select Package</button>
+                    </div>
+                    
+                    <div class="package-card featured">
+                        <div class="featured-badge">Most Popular</div>
+                        <div class="package-header">
+                            <h3 class="package-name">Premium Wash</h3>
+                            <div class="package-price">$18.99</div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Everything in Basic</li>
+                            <li>Triple foam application</li>
+                            <li>Undercarriage wash</li>
+                            <li>Tire shine</li>
+                            <li>Hot wax protection</li>
+                            <li>Rain-X application</li>
+                            <li>Free vacuum access</li>
+                        </ul>
+                        <button class="select-package-btn">Select Package</button>
+                    </div>
+                    
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3 class="package-name">Supreme Wash</h3>
+                            <div class="package-price">$24.99</div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Everything in Premium</li>
+                            <li>Premium soap upgrade</li>
+                            <li>Wheel brightener</li>
+                            <li>Ceramic coat spray</li>
+                            <li>Bug & tar remover</li>
+                            <li>Dashboard protectant</li>
+                            <li>Free vacuum access</li>
+                        </ul>
+                        <button class="select-package-btn">Select Package</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Service Detailing -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2 class="category-title">Full Service Detailing</h2>
+                    <p class="category-description">Complete interior and exterior detailing services</p>
+                </div>
+                
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3 class="package-name">Interior Detail</h3>
+                            <div class="package-price">$89.99</div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Complete vacuuming</li>
+                            <li>Steam cleaning of seats</li>
+                            <li>Dashboard & console cleaning</li>
+                            <li>Window cleaning (interior)</li>
+                            <li>Door panel cleaning</li>
+                            <li>Carpet & upholstery protection</li>
+                        </ul>
+                        <div class="service-time">Approx. 2-3 hours</div>
+                        <button class="select-package-btn">Book Service</button>
+                    </div>
+                    
+                    <div class="package-card">
+                        <div class="package-header">
+                            <h3 class="package-name">Exterior Detail</h3>
+                            <div class="package-price">$129.99</div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Hand wash & dry</li>
+                            <li>Clay bar treatment</li>
+                            <li>Paint correction (minor)</li>
+                            <li>Premium wax application</li>
+                            <li>Tire & wheel detail</li>
+                            <li>Chrome & trim polish</li>
+                        </ul>
+                        <div class="service-time">Approx. 3-4 hours</div>
+                        <button class="select-package-btn">Book Service</button>
+                    </div>
+                    
+                    <div class="package-card featured">
+                        <div class="featured-badge">Best Value</div>
+                        <div class="package-header">
+                            <h3 class="package-name">Complete Detail</h3>
+                            <div class="package-price">$199.99</div>
+                            <div class="package-savings">Save $20</div>
+                        </div>
+                        <ul class="package-features">
+                            <li>Full interior detail</li>
+                            <li>Full exterior detail</li>
+                            <li>Engine bay cleaning</li>
+                            <li>Headlight restoration</li>
+                            <li>6-month protection plan</li>
+                            <li>Free touch-ups (30 days)</li>
+                        </ul>
+                        <div class="service-time">Approx. 5-6 hours</div>
+                        <button class="select-package-btn">Book Service</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unlimited Plans -->
+            <div class="menu-category unlimited-section">
+                <div class="category-header">
+                    <h2 class="category-title">Unlimited Monthly Plans</h2>
+                    <p class="category-description">Wash as often as you want with our unlimited plans</p>
+                </div>
+                
+                <div class="unlimited-grid">
+                    <div class="unlimited-card">
+                        <div class="unlimited-header">
+                            <h3 class="unlimited-name">Basic Unlimited</h3>
+                            <div class="unlimited-price">
+                                <span class="price-amount">$24.99</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                        </div>
+                        <div class="unlimited-benefits">
+                            <p class="benefit-item">✓ Unlimited Basic Washes</p>
+                            <p class="benefit-item">✓ Free vacuum access</p>
+                            <p class="benefit-item">✓ Cancel anytime</p>
+                        </div>
+                        <button class="join-unlimited-btn">Join Now</button>
+                    </div>
+                    
+                    <div class="unlimited-card featured">
+                        <div class="featured-badge">Most Popular</div>
+                        <div class="unlimited-header">
+                            <h3 class="unlimited-name">Premium Unlimited</h3>
+                            <div class="unlimited-price">
+                                <span class="price-amount">$34.99</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                        </div>
+                        <div class="unlimited-benefits">
+                            <p class="benefit-item">✓ Unlimited Premium Washes</p>
+                            <p class="benefit-item">✓ Free vacuum access</p>
+                            <p class="benefit-item">✓ Guest passes (2/month)</p>
+                            <p class="benefit-item">✓ Cancel anytime</p>
+                        </div>
+                        <button class="join-unlimited-btn">Join Now</button>
+                    </div>
+                    
+                    <div class="unlimited-card">
+                        <div class="unlimited-header">
+                            <h3 class="unlimited-name">Supreme Unlimited</h3>
+                            <div class="unlimited-price">
+                                <span class="price-amount">$44.99</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                        </div>
+                        <div class="unlimited-benefits">
+                            <p class="benefit-item">✓ Unlimited Supreme Washes</p>
+                            <p class="benefit-item">✓ Free vacuum access</p>
+                            <p class="benefit-item">✓ Guest passes (4/month)</p>
+                            <p class="benefit-item">✓ 20% off detailing</p>
+                            <p class="benefit-item">✓ Cancel anytime</p>
+                        </div>
+                        <button class="join-unlimited-btn">Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/soaring-logo-white.svg" alt="Soaring Car Wash" class="footer-logo-img">
+                    </div>
+                    <p class="footer-description">Premium car wash experience in New Jersey.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Locations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Elmwood Park</a></li>
+                        <li><a href="#">Pompton Lakes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Express Wash</a></li>
+                        <li><a href="#">Full Service</a></li>
+                        <li><a href="#">Unlimited Plans</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:(201)797-7627">(201) 797-7627</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2025 Soaring Car Wash. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <style>
+        .menu-header {
+            background: linear-gradient(135deg, #1E72B7 0%, #2980b9 100%);
+            color: white;
+            padding: 80px 0 60px;
+            text-align: center;
+        }
+        
+        .menu-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .menu-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .location-info {
+            opacity: 0.8;
+        }
+        
+        .location-info a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .services-menu {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .menu-category {
+            margin-bottom: 80px;
+        }
+        
+        .category-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .category-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .category-description {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        
+        .package-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        
+        .package-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .package-card.featured {
+            border: 3px solid #E31C23;
+            transform: scale(1.02);
+        }
+        
+        .featured-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #E31C23;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .package-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .package-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .package-price {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #E31C23;
+        }
+        
+        .package-savings {
+            font-size: 14px;
+            color: #27ae60;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+        
+        .package-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 25px;
+        }
+        
+        .package-features li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #555;
+        }
+        
+        .package-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        
+        .service-time {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        
+        .select-package-btn {
+            width: 100%;
+            background: #1E72B7;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .select-package-btn:hover {
+            background: #155a94;
+            transform: translateY(-2px);
+        }
+        
+        .unlimited-section {
+            background: white;
+            padding: 60px 0;
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+        
+        .unlimited-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .unlimited-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        
+        .unlimited-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .unlimited-card.featured {
+            background: linear-gradient(135deg, #1E72B7, #2980b9);
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .unlimited-header {
+            margin-bottom: 25px;
+        }
+        
+        .unlimited-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .unlimited-price {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 5px;
+        }
+        
+        .price-amount {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #E31C23;
+        }
+        
+        .unlimited-card.featured .price-amount {
+            color: white;
+        }
+        
+        .price-period {
+            font-size: 1rem;
+            color: #666;
+        }
+        
+        .unlimited-card.featured .price-period {
+            color: rgba(255,255,255,0.8);
+        }
+        
+        .unlimited-benefits {
+            margin-bottom: 25px;
+        }
+        
+        .benefit-item {
+            padding: 5px 0;
+            color: #555;
+        }
+        
+        .unlimited-card.featured .benefit-item {
+            color: rgba(255,255,255,0.9);
+        }
+        
+        .join-unlimited-btn {
+            width: 100%;
+            background: #E31C23;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .unlimited-card.featured .join-unlimited-btn {
+            background: white;
+            color: #1E72B7;
+        }
+        
+        .join-unlimited-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .menu-title {
+                font-size: 2.2rem;
+            }
+            
+            .packages-grid,
+            .unlimited-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .package-card.featured,
+            .unlimited-card.featured {
+                transform: none;
+            }
+            
+            .package-card.featured:hover,
+            .unlimited-card.featured:hover {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</body>
+</html>

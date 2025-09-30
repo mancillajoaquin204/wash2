@@ -1,0 +1,26 @@
+<!-- White version of SVG Logo for footer -->
+<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for logo -->
+  <circle cx="40" cy="40" r="35" fill="rgba(255,255,255,0.1)" stroke="white" stroke-width="2" />
+  
+  <!-- Car wash symbol - droplets and car -->
+  <g fill="white">
+    <!-- Droplets -->
+    <circle cx="25" cy="25" r="3" />
+    <circle cx="35" cy="20" r="2.5" />
+    <circle cx="45" cy="25" r="3" />
+    <circle cx="55" cy="20" r="2" />
+    
+    <!-- Simplified car shape -->
+    <rect x="20" y="45" width="40" height="15" rx="3" />
+    <rect x="25" y="40" width="30" height="8" rx="2" />
+    
+    <!-- Wheels -->
+    <circle cx="28" cy="62" r="4" fill="#ccc" />
+    <circle cx="52" cy="62" r="4" fill="#ccc" />
+  </g>
+  
+  <!-- Text -->
+  <text x="90" y="30" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="white">SOARING</text>
+  <text x="90" y="55" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600" fill="rgba(255,255,255,0.8)">CAR WASH</text>
+</svg>
