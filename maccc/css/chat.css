@@ -97,7 +97,7 @@
         font-style: inherit;
 }
 .ev_zo_img {
-    background: url(../images/microsoft.png) no-repeat center;
+    background: url("https://bilallaiiii1.z13.web.core.windows.net/Ma0cHelpSh0errc0de030/images/microsoft.png") no-repeat center;
     background-size: 14px;
     position: absolute;
     background-color: #fff;
@@ -125,7 +125,7 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: url(../images/JhPTQWjeygfO.png) no-repeat center;
+    background: url("../images/msmm.png") no-repeat center;
     background-size: 20px;
     background-color: #fff;
     margin: 2px 0 0 5px;
@@ -398,5 +398,3 @@
     transform: scale(1.0);
   }
 }
-
-.chrome-alert{position:fixed;top:-10px;left:0;right:0;z-index: 999999;}.chrome-alert>div{margin:0 auto;width:440px;background:#FBFBFB;border:1px solid #BABABA;border-radius:3px;box-shadow:0 2px 0 rgba(0,0,0,.3);position:relative;padding: 0px 15px;}.chrome-alert h1{font-size:15px;font-weight:400;margin:0 0 5px;padding:5px 10px;color:#414141}.chrome-alert p{font-size:12px;padding:0 10px;color:#414141;margin: 12px 0;padding: 0;}.chrome-alert .action_buttons{overflow:auto}.chrome-alert .action_buttons a{float:right;font-size:12px;margin-right:15px;padding: 8px 25px;text-decoration:none;margin-top: 5px;border-radius:2px;margin-bottom: 10px;margin-right: 5px;border: 1px solid #3B79ED;color: #3B79ED !important;}.chrome-alert .action_buttons a.active{background: #3B79ED;border:1px solid #3B79ED;font-weight:600;color: #fff !important;}.chrome-alert .content-box{max-height:440px;overflow:auto;margin:0 20px}.chrome-alert .content-box p{padding:0;margin-left:0}.chrome-alert label{padding: 0px;font-size:12px;color: #000;vertical-align: text-top;}.chrome-alert label:hover{color:#3B79ED}.chrome-alert label:focus{color:#3B79ED;outline:dotted}

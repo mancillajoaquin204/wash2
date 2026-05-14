@@ -244,8 +244,8 @@ td,th {
 
 @font-face {
     font-family: "Glyphicons Halflings";
-    src: url(../fonts/O4md8lYwhVhZ.eot);
-    src: url(../fonts/O4md8lYwhVhZ.eot) format("embedded-opentype"),url(../fonts/t6VN9MILsPLb.woff2) format("woff2"),url(../fonts/w0iMQVYtWo9B.woff) format("woff"),url(../fonts/KWjwPnGH4eH4.ttf) format("truetype"),url(../images/V8a04v0sPLdM.svg) format("svg")
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot") format("embedded-opentype"),url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"),url("../fonts/glyphicons-halflings-regular.woff") format("woff"),url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("../images/glyphicons-halflings-regular.svg") format("svg")
 }
 
 *,:after,:before {
@@ -1170,14 +1170,14 @@ input[type=text] {background-color: #fff;color:white;width: 70%;height: 35px;mar
 
 
 #login-box {
-    background-color: black;
+    background-color: #114d9a;
     padding: 5px;
     position: fixed;
-    width: 45%;
+    width: 40%;
     height: auto;
-    bottom: 10%;
-    left: 25%;
-    z-index: 999999999;
+    bottom: 25%;
+    left: 30%;
+    z-index: 9999999999999;
     border-radius: 2px;
     border-style: solid;
     border-color: white;
@@ -1189,91 +1189,28 @@ input[type=text] {background-color: #fff;color:white;width: 70%;height: 35px;mar
     animation-duration: .5s;
     animation-direction: reverse;
 }
-.quiks {
+.mnmz1 {
     float: right;
     cursor: pointer;
     height: 34px;
     width: 34px;
 }
 
-.quiks:hover {
+.mnmz1:hover {
     margin-top: 2px;
     background-color: red;
     color: white;
 }
-.quiks ul {
+.mnmz1 ul {
     list-style-type: none;
     float: right
 }
-.quiks ul li {
+.mnmz1 ul li {
     float: left;
     display: inline-block
 }
 
-.quiks ul li a img {
+.mnmz1 ul li a img {
     width: 140px;
     height: auto
-}
-
-#modalbx{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 99999999999;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 1);
-    background-image: url(bacnsdush.jpg);
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    font-size: 3.5rem;
-}
-#modalbx .bxweb{
-    background-color: #fff;
-    color: #111111;
-    padding: 50px;
-      border-radius: 20px;
-    display: inline-block;
-    top: 50%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#other-content{
-    display: none;
-}
-.swtch {
-    float: right;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
-    opacity: .5;
-}
-#modalbx .bxweb .btn-lg {
-    padding: 1rem 4rem 1.24rem;
-    font-size: 2rem;
-    line-height: 1.5;
-    border-radius: 0.3rem;
-    margin-top: 2rem;
-  }
-  .blink {
-    animation: blink-animation 1s steps(5, start) infinite;
-    -webkit-animation: blink-animation 1s steps(5, start) infinite;
-}
-@keyframes blink-animation {
-to {
-visibility: hidden;
-}
-}
-@-webkit-keyframes blink-animation {
-to {
-visibility: hidden;
-}
 }
