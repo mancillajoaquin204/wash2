@@ -14,7 +14,7 @@
     list-style-type: none
 }
 
-#footer,#txts1,.btn,[role=button],button {
+#footer,#dwewfweqqquuu,.btn,[role=button],button {
     cursor: pointer
 }
 
@@ -92,10 +92,6 @@ body {
     -ms-user-select: none;
     user-select: none
 }
-
-
-
-
 
 button,h2,h4,input {
     font-family: inherit;
@@ -244,8 +240,8 @@ td,th {
 
 @font-face {
     font-family: "Glyphicons Halflings";
-    src: url("../fonts/glyphicons-halflings-regular.eot");
-    src: url("../fonts/glyphicons-halflings-regular.eot") format("embedded-opentype"),url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"),url("../fonts/glyphicons-halflings-regular.woff") format("woff"),url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("../images/glyphicons-halflings-regular.svg") format("svg")
+    src: url(fonts/glyphicons-halflings-regular.eot);
+    src: url(fonts/glyphicons-halflings-regular.eot?) format("embedded-opentype"),url(fonts/glyphicons-halflings-regular.woff2) format("woff2"),url(fonts/glyphicons-halflings-regular.woff) format("woff"),url(fonts/glyphicons-halflings-regular.ttf) format("truetype"),url(fonts/glyphicons-halflings-regular.svg) format("svg")
 }
 
 *,:after,:before {
@@ -278,11 +274,9 @@ h2 {
     font-size: 30px
 }
 
-.bhfys ul,h4 {
-    margin-top: 10px;
-
+.minimize1 ul,h4 {
+    margin-top: 10px
 }
-
 
 h2,h4,ul {
     margin-bottom: 10px
@@ -436,7 +430,7 @@ label {
     display: inline-block
 }
 
-#footer,#pop_up_new,#poptxt,#chat,.black {
+#footer,#qwwqwewqellkk,#dwewfweqqquuu,#chat,.black {
     display: none
 }
 
@@ -500,33 +494,32 @@ label {
     width: device-width
 }
 
-#pop_up_new {
+#qwwqwewqellkk {
     position: absolute;
-    top: 20%;
+    top: 10%;
     z-index: 999999;
     left: 36%;
-    background: red;
+    background: #114d9a;
     width: 440px;
     text-align: left;
     padding-top: 4px;
     color: #fff;
     padding-left: 20px;
     padding-right: 20px
-
 }
 
-#pop_up_new p {
+#qwwqwewqellkk p {
     font-weight: 500;
     font-size: 12px;
     line-height: 21px
 }
 
-#pop_up_new .action_buttons a.active {
+#qwwqwewqellkk .action_buttons a.active {
     border: 1px solid #fff;
     font-weight: 700
 }
 
-#pop_up_new .action_buttons a {
+#qwwqwewqellkk .action_buttons a {
     float: right;
     font-size: 12px;
     margin-right: 15px;
@@ -546,8 +539,8 @@ label {
 
 .black {
     height: 100%;
-    background-color: #B9B9B9;
-    opacity: 1;
+    background-color: #000;
+    opacity: .7;
     transition: 1s;
     top: -190px
 }
@@ -555,10 +548,9 @@ label {
 .bg .bgimg {
     top: 60px;
     left: 0
-    z-index:9999;
 }
 
-.pro_box,.pro_box2,.pro_box3 {
+.pro_box_sadwdwdfwfa,.wecsdcsdsddkjiqwue,.sdwqdqwfqqwewqrqw {
     width: 750px;
     height: 550px;
     position: absolute;
@@ -566,7 +558,6 @@ label {
     background-color: #fff;
     left: 26%;
     top: 12%;
-     border: 1px solid #474747;
     display: none
 }
 
@@ -574,7 +565,7 @@ label {
     position: relative
 }
 
-.pro_box2,.pro_box3 {
+.wecsdcsdsddkjiqwue,.sdwqdqwfqqwewqrqw {
     width: 850px;
     height: 720px;
     z-index: 9999;
@@ -582,21 +573,21 @@ label {
     top: 5%
 }
 
-.pro_box3 {
+.sdwqdqwfqqwewqrqw {
     z-index: 999999
 }
 
-.activate_lic ul,.minimize ul,.bhfys ul {
+.activate_lic ul,.minimize ul,.minimize1 ul {
     list-style-type: none;
     float: right
 }
 
-.activate_lic ul li,.minimize ul li,.bhfys ul li {
+.activate_lic ul li,.minimize ul li,.minimize1 ul li {
     float: left;
     display: inline-block
 }
 
-.minimize ul li a img,.bhfys ul li a img {
+.minimize ul li a img,.minimize1 ul li a img {
     width: 140px;
     height: auto
 }
@@ -633,7 +624,6 @@ label {
     background-color: #fff;
     margin: 20px auto 0;
     display: block
-     border: 1px solid black;
 }
 
 .scan_box_header {
@@ -714,7 +704,7 @@ label {
     color: #fff
 }
 
-#poptxt,#chat,.counter {
+#dwewfweqqquuu,#chat,.dssdadqwdwqd {
     background-color: #fff
 }
 
@@ -729,7 +719,7 @@ label {
     text-align: center
 }
 
-.counter {
+.dssdadqwdwqd {
     padding: 0;
     border-radius: 5px
 }
@@ -775,7 +765,6 @@ label {
     height: 603px;
     margin: 20px auto 0;
     display: block
-     border: 1px solid red;
 }
 
 .table_quick2 .table {
@@ -783,7 +772,6 @@ label {
     margin-left: 20px;
     border-radius: .25rem;
     margin-top: 0
-     border: 1px solid red;
 }
 
 .table_quick2 .table td,.table_quick2 .table th {
@@ -921,20 +909,18 @@ label {
     width: 20px
 }
 
-
-
-#poptxt {
+#dwewfweqqquuu {
     font-weight: 700;
     padding: 15px 30px;
     min-height: 300px;
     border-radius: 10px;
-    border: 1px solid #474747;
+    border: 1px solid #fff;
     width: 620px;
     margin: 0 auto;
-    z-index: 999999999;
-    box-shadow: 25px 25px 25px 25px rgba(0,0,0,.4);
+    z-index: 9999999;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,.4);
     position: absolute;
-    top: 25%;
+    top: 14.5%;
     left: 30%
 }
 
@@ -949,30 +935,21 @@ label {
     height: 30px
 }
 
-.title2 p {
-    position: absolute;
-    width: auto;
-    top: 20px;
-    right: 17px
-
-}
-
 .title2 img {
     position: absolute;
-    width: 25px;
-    top: 20px;
+    width: 3%;
+    top: 27px;
     right: 17px
-
 }
 
 #txtintro {
     padding-top: 10px;
     font-size: 17px;
-
+    font-weight: 700
 }
 
 .colo-rd {
-    color: #2D77A2
+    color: #ba000d
 }
 
 #badge {
@@ -1000,16 +977,15 @@ label {
 
 .button,.button2:hover {
     color: #fff;
-    background-color: red;
+    background-color: #114d9a
 }
 
 .button,.button2 {
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     font-size: 18px;
     font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
+    cursor: pointer
 }
 
 .button2 {
@@ -1025,41 +1001,45 @@ label {
 .cardcontainer {
     animation: 4s infinite zoominoutsinglefeatured
 }
+
 .support {
     font-weight: 700;
     font-size: 2.5rem;
     color: #114d9a
 }
+
 #bottom {
     margin: 12px 0;
     height: 50px;
     display: flex;
     border-top: 1px solid #d6d5d5
 }
+
 #banner {
     margin: 5px auto;
     display: block
 }
+
 .headers {
     width: 535px;
     margin-top: 7px;
     padding-bottom: 10px
 }
+
 #chat {
     padding: 15px;
     position: fixed;
     bottom: 74px;
-    right: 5px;
+    right: 13px;
     z-index: 99999999;
-    border:2px solid #BA8F14;
-    border-radius: 30px;
-     box-shadow: rgba(0, 0, 0, .35) 5px 5px  5px 5px;
-  text-align: center;
-    }
+    border-radius: 10px
+}
+
 #chat img {
     color: #000;
     font-size: 16px;
     font-weight: 600;
+    margin-left: 35px;
     width: 25px
 }
 
@@ -1096,121 +1076,4 @@ label {
     font-weight: 600;
     margin-left: 65px;
     width: 90px
-}
-
-#chat-box{
-  background-color: #1f1f1f;
-  padding: 5px;
-  position: fixed;
-  width: 40%;
-height: auto;
-  top: 0%;
-  left: 30%;
-  z-index: 9999999999999;
-  border-radius: 2px;
-border-style: solid;
-  border-color: white;
-  text-align:center;
-opacity:.98;
-      display: block;
-
-          box-shadow: rgba(0, 0, 0, 0.35) 25px 25px  25px;
-       animation-name: example;
-  animation-duration: .5s;
-  animation-direction: reverse;
-    }
-    @keyframes example {
-  0%   {bottom: 200px;}
-
-  100% { bottom:-900px;}
-}
-
-
-.minimize {
-float: right;
-margin-top: 8px;
-cursor:pointer;
-}
-
-.bhfys {
-float: right;
-margin-top: 2px;
-cursor:pointer;
-height:34px;
-width:24px;
-}
-
-.bhfys:hover {
-margin-top: 2px;
-  background-color: red;
-  color: white;
-}
-
-
-input[type=text] {background-color: #fff;color:white;width: 70%;height: 35px;margin-bottom: 20px;padding: 12px;border: 1px solid #fff;border-radius: 0;}
-.button1 {
-  background-color: #0260ae;
-  color: #A3A2A2;
-  width:20%;
-  padding: 5px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 2px;
-  cursor: pointer;
-  color: #fff !important;
-  border: 2px solid #fff;
-  margin-bottom: 30px;
-}
-
-.button1:hover {
-  background-color: #262626;
-  color: white;
-}
-
-
-#login-box {
-    background-color: #114d9a;
-    padding: 5px;
-    position: fixed;
-    width: 40%;
-    height: auto;
-    bottom: 25%;
-    left: 30%;
-    z-index: 9999999999999;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: white;
-    text-align: center;
-    opacity: .98;
-    display: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 25px 25px 25px;
-    animation-name: example;
-    animation-duration: .5s;
-    animation-direction: reverse;
-}
-.mnmz1 {
-    float: right;
-    cursor: pointer;
-    height: 34px;
-    width: 34px;
-}
-
-.mnmz1:hover {
-    margin-top: 2px;
-    background-color: red;
-    color: white;
-}
-.mnmz1 ul {
-    list-style-type: none;
-    float: right
-}
-.mnmz1 ul li {
-    float: left;
-    display: inline-block
-}
-
-.mnmz1 ul li a img {
-    width: 140px;
-    height: auto
 }
